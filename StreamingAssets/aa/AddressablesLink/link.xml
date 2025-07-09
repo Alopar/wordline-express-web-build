@@ -4,9 +4,10 @@
     <type fullname="Domain.Camera.LetterboxController" preserve="all" />
     <type fullname="Domain.Camera.ScreenAspectLimiter" preserve="all" />
     <type fullname="Screens.Layers.HUD.HudView" preserve="all" />
+    <type fullname="Screens.Layers.LevelsMap.LevelElem" preserve="all" />
+    <type fullname="Screens.Layers.LevelsMap.LevelsMapView" preserve="all" />
+    <type fullname="Screens.Layers.LevelsMap.StarsElem" preserve="all" />
     <type fullname="Screens.Layers.MainMenu.MainMenuView" preserve="all" />
-    <type fullname="Screens.Layers.ProgressMap.LevelsMapView" preserve="all" />
-    <type fullname="Screens.Layers.ProgressMap.ProgressLevelElem" preserve="all" />
     <type fullname="Screens.Layers.RegionsMap.RegionElem" preserve="all" />
     <type fullname="Screens.Layers.RegionsMap.RegionsMapView" preserve="all" />
     <type fullname="Screens.Layers.RoutesMap.RouteElem" preserve="all" />
@@ -17,6 +18,7 @@
     <type fullname="Screens.Modals.UsedWords.UsedWordsView" preserve="all" />
     <type fullname="Screens.Modals.Win.WinView" preserve="all" />
     <type fullname="Screens.ViewElements.CheckWordButtonViewElement" preserve="all" />
+    <type fullname="Screens.ViewElements.ScoreProgressbarViewElement" preserve="all" />
     <type fullname="Screens.ViewElements.ScoresViewElement" preserve="all" />
     <type fullname="Screens.ViewElements.StationProgressbarViewElement" preserve="all" />
     <type fullname="Screens.ViewElements.TimerViewElement" preserve="all" />
@@ -77,9 +79,6 @@
     <type fullname="UnityEngine.ParticleSystem" preserve="all" />
     <type fullname="UnityEngine.ParticleSystemRenderer" preserve="all" />
   </assembly>
-  <assembly fullname="UnityEngine.TextRenderingModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="UnityEngine.Font" preserve="all" />
-  </assembly>
   <assembly fullname="UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.EventSystems.EventSystem" preserve="all" />
     <type fullname="UnityEngine.UI.AspectRatioFitter" preserve="all" />
@@ -89,9 +88,11 @@
     <type fullname="UnityEngine.UI.GraphicRaycaster" preserve="all" />
     <type fullname="UnityEngine.UI.Image" preserve="all" />
     <type fullname="UnityEngine.UI.Mask" preserve="all" />
+    <type fullname="UnityEngine.UI.Outline" preserve="all" />
     <type fullname="UnityEngine.UI.RectMask2D" preserve="all" />
     <type fullname="UnityEngine.UI.Scrollbar" preserve="all" />
     <type fullname="UnityEngine.UI.ScrollRect" preserve="all" />
+    <type fullname="UnityEngine.UI.Shadow" preserve="all" />
     <type fullname="UnityEngine.UI.Slider" preserve="all" />
     <type fullname="UnityEngine.UI.VerticalLayoutGroup" preserve="all" />
     <type fullname="UnityEngine.UI.AnimationTriggers" preserve="nothing" serialized="true" />
