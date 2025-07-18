@@ -21,6 +21,9 @@
     <type fullname="Screens.ViewElements.ScoresViewElement" preserve="all" />
     <type fullname="Screens.ViewElements.StationProgressbarViewElement" preserve="all" />
     <type fullname="Screens.ViewElements.TimerViewElement" preserve="all" />
+    <type fullname="Services.AudionSystem.AudioMapSO" preserve="all" />
+    <type fullname="Services.AudionSystem.AudioProvider" preserve="all" />
+    <type fullname="Services.AudionSystem.AudionMapDTO" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Coffee.UIParticle, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="Coffee.UIExtensions.UIParticle" preserve="all" />
@@ -60,6 +63,10 @@
     <type fullname="UnityEngine.AnimationClip" preserve="all" />
     <type fullname="UnityEngine.Animator" preserve="all" />
     <type fullname="UnityEngine.RuntimeAnimatorController" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.AudioClip" preserve="all" />
+    <type fullname="UnityEngine.AudioSource" preserve="all" />
   </assembly>
   <assembly fullname="UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.GameObject" preserve="all" />
