@@ -23,7 +23,10 @@
     <type fullname="Screens.ViewElements.TimerViewElement" preserve="all" />
     <type fullname="Services.AudionSystem.AudioMapSO" preserve="all" />
     <type fullname="Services.AudionSystem.AudioProvider" preserve="all" />
+    <type fullname="Services.ModificationSystem.GameRulesProvider" preserve="all" />
+    <type fullname="Services.ModificationSystem.ModificationSO" preserve="all" />
     <type fullname="Services.AudionSystem.AudionMapDTO" preserve="nothing" serialized="true" />
+    <type fullname="Services.ModificationSystem.IncreaseScoreByLetters" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Coffee.UIParticle, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="Coffee.UIExtensions.UIParticle" preserve="all" />
